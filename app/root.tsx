@@ -86,7 +86,7 @@ export default function App() {
           </li>
         </ul>
       </nav>
-      <div className='p-4 w-full'>
+      <div className='p-4 w-full md:w-[calc(100%-4rem)]'>
         <Outlet />
       </div>
     </>
